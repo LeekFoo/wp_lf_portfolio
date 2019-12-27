@@ -22,10 +22,6 @@
     gtag('js', new Date());
     gtag('config', 'UA-152752591-1');
 </script>
-<?php
-    wp_deregister_script(‘jquery’);
-    wp_enqueue_script("jquery", "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js", array(), "3.4.1");
-?>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
